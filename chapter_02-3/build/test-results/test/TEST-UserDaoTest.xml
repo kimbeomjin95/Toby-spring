@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UserDaoTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-07-09T03:14:48" hostname="MacBook-Pro.local" time="0.337">
+  <properties/>
+  <testcase name="getUserFailure" classname="UserDaoTest" time="0.271"/>
+  <testcase name="addAndGet" classname="UserDaoTest" time="0.038"/>
+  <testcase name="count" classname="UserDaoTest" time="0.027"/>
+  <system-out><![CDATA[12:14:48.557 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+12:14:48.560 [Test worker] DEBUG org.springframework.context.support.GenericXmlApplicationContext - Refreshing org.springframework.context.support.GenericXmlApplicationContext@211d3fce
+12:14:48.581 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+12:14:48.618 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDao'
+12:14:48.626 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.666 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.676 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.696 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+12:14:48.696 [Test worker] DEBUG org.springframework.context.support.GenericXmlApplicationContext - Refreshing org.springframework.context.support.GenericXmlApplicationContext@58fc7957
+12:14:48.696 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+12:14:48.697 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDao'
+12:14:48.698 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.700 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.708 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.711 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.713 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.714 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.716 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.730 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+12:14:48.730 [Test worker] DEBUG org.springframework.context.support.GenericXmlApplicationContext - Refreshing org.springframework.context.support.GenericXmlApplicationContext@1c0dbe18
+12:14:48.731 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+12:14:48.732 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDao'
+12:14:48.733 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.734 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.736 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.737 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.739 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.740 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.742 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+12:14:48.744 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

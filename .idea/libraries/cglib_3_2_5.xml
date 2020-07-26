@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="cglib-3.2.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/JARs for tobe spring 1.5 spring IoC/cglib-3.2.5.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/JARs for tobe spring 1.5 spring IoC/commons-logging-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/JARs for tobe spring 1.5 spring IoC/spring-aop-5.1.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/JARs for tobe spring 1.5 spring IoC/spring-asm-3.1.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/JARs for tobe spring 1.5 spring IoC/spring-beans-5.1.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/JARs for tobe spring 1.5 spring IoC/spring-context-5.1.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/JARs for tobe spring 1.5 spring IoC/spring-core-5.1.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/JARs for tobe spring 1.5 spring IoC/spring-expression-5.1.4.RELEASE (1).jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/JARs for tobe spring 1.5 spring IoC/spring-expression-5.1.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
