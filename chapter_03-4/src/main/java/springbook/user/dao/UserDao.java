@@ -17,12 +17,10 @@ public class UserDao {
     // JdbcContext를 DI 받오론 만든다.
     private JdbcContext jdbcContext;
 
-    public void setDataSource(DataSource dataSource) {
+    public void setDataSource(DataSource dataSource) {  // 수정자 메소드이면서 JdbcContext에 대한 생성. DI 작업을 동시에 수행한다.
+        this.jdbcContext = new JdbcContext();   // JdbcContext(Ioc) 생성
+        this.jdbcContext.setDataSource(dataSource); // 의존 오브젝트 주입(DI)
         this.dataSource = dataSource;
-    }
-
-    public void setJdbcContext(JdbcContext jdbcContext) {
-        this.jdbcContext = jdbcContext;
     }
 
     public void add(final User user) throws SQLException {
@@ -38,8 +36,7 @@ public class UserDao {
             }
         });
     }
-
-
+    
     public User get(String id) throws  SQLException {
 
         Connection c = this.dataSource.getConnection();
@@ -89,7 +86,6 @@ public class UserDao {
 
     // 익명 내부 클래스를 적용한 deleteAll() 메소드
     public void deleteAll() throws SQLException {
-
         this.jdbcContext.workWithStatementStrategy(new StatementStrategy() {
                 public PreparedStatement makePreparedStatement(Connection c) throws SQLException {
                     return c.prepareStatement("delete from users");
